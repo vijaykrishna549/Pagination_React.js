@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <h4>Kalakani Code Test </h4>
+      <h4>Kalkani Code Test </h4>
       {/* <AnimeCharacters /> */}
       <BrowserRouter>
         <Routes>
