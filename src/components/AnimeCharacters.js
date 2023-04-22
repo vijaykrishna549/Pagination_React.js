@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function AnimeCharacters() {
   const [animeChar, setAnimeChar] = useState([]);
@@ -172,6 +173,15 @@ function AnimeCharacters() {
           </ul>
         </nav>
       </div>
+
+      {/* Link to Fibonacci Page */}
+
+      <Link to="/fibonacci">
+        {" "}
+        <button type="button" class="btn btn-info">
+          Fibonacci Page
+        </button>
+      </Link>
     </>
   );
 }
